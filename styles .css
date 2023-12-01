@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+}
+
+.about-us {
+  margin-left: 598px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 5px;
+  color: rgb(12, 105, 121);
+  font-weight: bold;
+}
+
+.about-us:hover {
+  color: rgb(0, 0, 0);
+}
+
+.contact-us {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:  rgb(12, 105, 121);
+  font-weight: bold;
+}
+
+.contact-us:hover {
+    color: black;
+}
+
+
+.insta-img {
+    padding-left: 0px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+  
+.fb-img {
+    padding-left: 1px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+  
+.twit-img {
+    padding-left: 2px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+  
+
+.yt-img {
+    padding-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.top-container {
+    background-color:rgb(120, 208, 235);
+    position: static;
+}
+
+.fb-img, .insta-img, .twit-img, .yt-img {
+    padding-top: 13px;
+}
+
+.header {
+    padding-left: 70px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+
+.search {
+    margin-left: 10px;
+    border-radius: 6px;
+    padding: 10px 200px 10px 10px;
+    border-width: 0px;
+    outline: none;
+}
+
+::placeholder {
+    font-family: cursive;
+}
+
+.slider {
+    width: 1000px;
+    height: 300px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .image-container {
+    width: 3000px;
+    background-color: pink;
+    height: 300px;
+    clear: both;
+    position: relative;
+    transition: left 2s;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -1000px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -2000px;
+  }
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: rgb(131, 225, 131);
+  }
